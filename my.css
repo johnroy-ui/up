@@ -1,0 +1,969 @@
+#tab1:checked ~ .isall {
+    display: inline-block !important;
+}
+#tab2:checked ~ .isfile {
+    display: inline-block !important;
+}
+#tab3:checked ~ .isvideo {
+    display: inline-block !important;
+}
+#tab4:checked ~ .isimage {
+    display: inline-block !important;
+}
+[type="radio"]+label:before{
+	display:none !important;
+}
+[type="radio"]+label:after{
+	display:none !important;
+}
+ul > input:checked +label {
+    background: #009688 !important;
+    color: white;
+}
+
+ul > input +label {
+    margin: 0;
+    width: 260px;
+    padding: 15px 25px;
+    font-weight: 600;
+    text-align: center;
+    border: 1px solid transparent;
+	line-height: 0px !important;
+    display: inline-block;
+    background: #f2f8fd;
+    color: #5295c7;
+    border-bottom: 2px solid rgba(0,0,0,0.14) !important;
+    font-size: 14px;
+}
+
+.upload_block .fileinput-button {font-size:23px;direction:ltr;cursor:pointer;padding-top:15px;height:125px;font-color:black;float: none; display: inline-block; overflow: hidden; position: relative;line-height: 50px;}
+.fileinput-button, #files_container { float: none; display: inline-block; overflow: hidden; position: relative; text-align: center; line-height: 50px; }
+#files_container {
+    width: 191px;
+    height: 55px;
+}
+#drag_container { display: none; height: 69px; margin-bottom: 15px; padding-top: 15px; border-radius: 6px; background-image: url('/images/drag-n-drop.png'); font-color: #aaa; }
+#drag_container input[type="file"] { position: fixed; left: 0; top: 0; width: 100%; height: 100%; margin: 0 auto; z-index: 9999;}
+.upload_block input[type="file"], #files_container input[type="file"] {margin-top: -115px;
+    font-size: 140px;
+    width: 95%;
+    height: 130px;
+    opacity: 0; }
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+@media screen and (max-width: 1000px){
+.jdivide {
+    border-left: none !important;
+}
+}
+.parallax-container {
+      height: 290px;
+      z-index: 0;
+    }
+
+.parallax.center {
+    z-index: 1;
+}
+.nav-wrapper i{
+display: inline-block !important;
+}
+html {
+    font-family: 'Open Sans',sans-serif;
+}
+.jdivide {
+    border-left: 1px solid #e0e0e0;
+}
+.jdvd {
+    margin-top: 35px;
+}
+
+.input-field.col .prefix ~ label
+{
+width:auto !important;
+}
+
+.tabs .tab a, .tabs .tab a:hover, .tabs .tab a.active{
+color:teal;
+}
+
+.tabs .indicator {
+    background-color: teal;
+}
+.slider .indicators .indicator-item.active {
+    background-color: teal !important;
+}
+.paging {
+    margin: 10px 0 5px 0;
+}
+.paging b {
+    margin-right: 3px;
+    padding: 1px 7px;
+    font-weight: normal;
+    color: #FFF;
+    background-color: #26a69a;
+    border: 1px solid #26a69a;
+    border-radius: 3px;
+}
+.paging a {
+    border: 1px solid #26a69a;
+    margin-right: 3px;
+    padding: 1px 7px;
+    text-decoration: none;
+    color: #26a69a;
+    border-radius: 3px;
+}
+li[name="alfafile.net"]:after {
+    font-size: 80%;
+    font-weight: normal;
+    content: "Max: 1 GB";
+    display: block;
+    margin-left: 35px;
+    text-indent: 0;
+}
+li[name="1fichier.com"]:after {
+    font-size: 80%;
+    font-weight: normal;
+    content: "Max: 1 GB";
+    display: block;
+    margin-left: 35px;
+    text-indent: 0;
+}
+li[name="4shared.com"]:after {
+    font-size: 80%;
+    font-weight: normal;
+    content: "Max: 1 GB";
+    display: block;
+    margin-left: 35px;
+    text-indent: 0;
+}
+li[name="datafilehost.com"]:after {
+    font-size: 80%;
+    font-weight: normal;
+    content: "Max: 500 MB";
+    display: block;
+    margin-left: 35px;
+    text-indent: 0;
+}
+li[name="1fichier.com"]:after {
+    font-size: 80%;
+    font-weight: normal;
+    content: "Max: 1 GB";
+    display: block;
+    margin-left: 35px;
+    text-indent: 0;
+}
+li[name="depositfiles.com"]:after {
+    font-size: 80%;
+    font-weight: normal;
+    content: "Max: 1 GB";
+    display: block;
+    margin-left: 35px;
+    text-indent: 0;
+}li[name="yadi.sk"]:after {
+    font-size: 80%;
+    font-weight: normal;
+    content: "Max: 1 GB";
+    display: block;
+    margin-left: 35px;
+    text-indent: 0;
+}li[name="filefactory.com"]:after {
+    font-size: 80%;
+    font-weight: normal;
+    content: "Max: 1 GB";
+    display: block;
+    margin-left: 35px;
+    text-indent: 0;
+}
+li[name="files.fm"]:after {
+    font-size: 80%;
+    font-weight: normal;
+    content: "Max: 1 GB";
+    display: block;
+    margin-left: 35px;
+    text-indent: 0;
+}
+li[name="gigapeta.com"]:after {
+    font-size: 80%;
+    font-weight: normal;
+    content: "Max: 250 MB";
+    display: block;
+    margin-left: 35px;
+    text-indent: 0;
+}
+li[name="ge.tt"]:after {
+    font-size: 80%;
+    font-weight: normal;
+    content: "Max: 250 MB";
+    display: block;
+    margin-left: 35px;
+    text-indent: 0;
+}
+li[name="load.to"]:after {
+    font-size: 80%;
+    font-weight: normal;
+    content: "Max: 1 GB";
+    display: block;
+    margin-left: 35px;
+    text-indent: 0;
+}
+li[name="hitfile.net"]:after {
+    font-size: 80%;
+    font-weight: normal;
+    content: "Max: 1 GB";
+    display: block;
+    margin-left: 35px;
+    text-indent: 0;
+}
+li[name="keep2share.cc"]:after {
+    font-size: 80%;
+    font-weight: normal;
+    content: "Max: 1 GB";
+    display: block;
+    margin-left: 35px;
+    text-indent: 0;
+}
+li[name="mediafire.com"]:after {
+    font-size: 80%;
+    font-weight: normal;
+    content: "Max: 1 GB";
+    display: block;
+    margin-left: 35px;
+    text-indent: 0;
+}
+li[name="mail.ru"]:after {
+    font-size: 80%;
+    font-weight: normal;
+    content: "Max: 1 GB";
+    display: block;
+    margin-left: 35px;
+    text-indent: 0;
+}li[name="keep2share.cc"]:after {
+    font-size: 80%;
+    font-weight: normal;
+    content: "Max: 1 GB";
+    display: block;
+    margin-left: 35px;
+    text-indent: 0;
+}
+li[name="openload.co"]:after {
+    font-size: 80%;
+    font-weight: normal;
+    content: "Max: 1 GB";
+    display: block;
+    margin-left: 35px;
+    text-indent: 0;
+}
+li[name="pcloud.com"]:after {
+    font-size: 80%;
+    font-weight: normal;
+    content: "Max: 1 GB";
+    display: block;
+    margin-left: 35px;
+    text-indent: 0;
+}
+li[name="rapidgator.net"]:after {
+    font-size: 80%;
+    font-weight: normal;
+    content: "Max: 1 GB";
+    display: block;
+    margin-left: 35px;
+    text-indent: 0;
+}
+li[name="rgho.st"]:after {
+    font-size: 80%;
+    font-weight: normal;
+    content: "Max: 100 MB";
+    display: block;
+    margin-left: 35px;
+    text-indent: 0;
+}
+li[name="keep2share.cc"]:after {
+    font-size: 80%;
+    font-weight: normal;
+    content: "Max: 1 GB";
+    display: block;
+    margin-left: 35px;
+    text-indent: 0;
+}
+li[name="sendspace.com"]:after {
+    font-size: 80%;
+    font-weight: normal;
+    content: "Max: 1 GB";
+    display: block;
+    margin-left: 35px;
+    text-indent: 0;
+}
+li[name="share-online.biz"]:after {
+    font-size: 80%;
+    font-weight: normal;
+    content: "Max: 1 GB";
+    display: block;
+    margin-left: 35px;
+    text-indent: 0;
+}
+li[name="keep2share.cc"]:after {
+    font-size: 80%;
+    font-weight: normal;
+    content: "Max: 1 GB";
+    display: block;
+    margin-left: 35px;
+    text-indent: 0;
+}
+li[name="solidfiles.com"]:after {
+    font-size: 80%;
+    font-weight: normal;
+    content: "Max: 500 MB";
+    display: block;
+    margin-left: 35px;
+    text-indent: 0;
+}
+li[name="turbobit.net"]:after {
+    font-size: 80%;
+    font-weight: normal;
+    content: "Max: 1 GB";
+    display: block;
+    margin-left: 35px;
+    text-indent: 0;
+}
+li[name="tusfiles.com"]:after {
+    font-size: 80%;
+    font-weight: normal;
+    content: "Max: 1 GB";
+    display: block;
+    margin-left: 35px;
+    text-indent: 0;
+}
+li[name="dir50.cc"]:after {
+    font-size: 80%;
+    font-weight: normal;
+    content: "Max: 1 GB";
+    display: block;
+    margin-left: 35px;
+    text-indent: 0;
+}
+li[name="ddl.to"]:after {
+    font-size: 80%;
+    font-weight: normal;
+    content: "Max: 1 GB";
+    display: block;
+    margin-left: 35px;
+    text-indent: 0;
+}
+li[name="dropapk.com"]:after {
+    font-size: 80%;
+    font-weight: normal;
+    content: "Max: 1 GB";
+    display: block;
+    margin-left: 35px;
+    text-indent: 0;
+}
+li[name="dosyup.com"]:after {
+    font-size: 80%;
+    font-weight: normal;
+    content: "Max: 1 GB";
+    display: block;
+    margin-left: 35px;
+    text-indent: 0;
+}
+li[name="fileflares.com"]:after {
+    font-size: 80%;
+    font-weight: normal;
+    content: "Max: 1 GB";
+    display: block;
+    margin-left: 35px;
+    text-indent: 0;
+}
+li[name="upload.ee"]:after {
+    font-size: 80%;
+    font-weight: normal;
+    content: "Max: 200 MB";
+    display: block;
+    margin-left: 35px;
+    text-indent: 0;
+}
+li[name="upstore.net"]:after {
+    font-size: 80%;
+    font-weight: normal;
+    content: "Max: 1 GB";
+    display: block;
+    margin-left: 35px;
+    text-indent: 0;
+}
+.lol:after {
+    font-size: 80%;
+    font-weight: normal;
+    content: "Max: 400 MB";
+    display: block;
+    margin-left: 35px;
+    text-indent: 0;
+}
+li[name="wayupload.com"]:after {
+    font-size: 80%;
+    font-weight: normal;
+    content: "Max: 1 GB";
+    display: block;
+    margin-left: 35px;
+    text-indent: 0;
+}
+li[name="xup.in"]:after {
+    font-size: 80%;
+    font-weight: normal;
+    content: "Max: 100 MB";
+    display: block;
+    margin-left: 35px;
+    text-indent: 0;
+}
+li[name="zippyshare.com"]:after {
+    font-size: 80%;
+    font-weight: normal;
+    content: "Max: 500 MB";
+    display: block;
+    margin-left: 35px;
+    text-indent: 0;
+}
+li[name="3zfile.net"]:after {
+    font-size: 80%;
+    font-weight: normal;
+    content: "Max: 1 GB";
+    display: block;
+    margin-left: 35px;
+    text-indent: 0;
+}
+li[name="upload.ac"]:after {
+    font-size: 80%;
+    font-weight: normal;
+    content: "Max: 1 GB";
+    display: block;
+    margin-left: 35px;
+    text-indent: 0;
+}
+li[name="srfiles.com"]:after {
+    font-size: 80%;
+    font-weight: normal;
+    content: "Max: 1 GB";
+    display: block;
+    margin-left: 35px;
+    text-indent: 0;
+}
+li[name="up-4.net"]:after {
+    font-size: 80%;
+    font-weight: normal;
+    content: "Max: 1 GB";
+    display: block;
+    margin-left: 35px;
+    text-indent: 0;
+}
+li[name="uploaded.net"]:after {
+    font-size: 80%;
+    font-weight: normal;
+    content: "Max: 500 MB";
+    display: block;
+    margin-left: 35px;
+    text-indent: 0;
+}
+li[name="cfiles.net"]:after {
+    font-size: 80%;
+    font-weight: normal;
+    content: "Max: 1 GB";
+    display: block;
+    margin-left: 35px;
+    text-indent: 0;
+}
+li[name="intoupload.net"]:after {
+    font-size: 80%;
+    font-weight: normal;
+    content: "Max: 1 GB";
+    display: block;
+    margin-left: 35px;
+    text-indent: 0;
+}
+li[name="cloudyfiles.me"]:after {
+    font-size: 80%;
+    font-weight: normal;
+    content: "Max: 1 GB";
+    display: block;
+    margin-left: 35px;
+    text-indent: 0;
+}
+li[name="uploadbuzz.net"]:after {
+    font-size: 80%;
+    font-weight: normal;
+    content: "Max: 1 GB";
+    display: block;
+    margin-left: 35px;
+    text-indent: 0;
+}
+li[name="sendit.cloud"]:after {
+    font-size: 80%;
+    font-weight: normal;
+    content: "Max: 1 GB";
+    display: block;
+    margin-left: 35px;
+    text-indent: 0;
+}
+li[name="userscloud.com"]:after {
+    font-size: 80%;
+    font-weight: normal;
+    content: "Max: 1 GB";
+    display: block;
+    margin-left: 35px;
+    text-indent: 0;
+}
+li[name="anonfile.com"]:after {
+    font-size: 80%;
+    font-weight: normal;
+    content: "Max: 400 MB";
+    display: block;
+    margin-left: 35px;
+    text-indent: 0;
+}
+li[name="clicknupload.org"]:after {
+    font-size: 80%;
+    font-weight: normal;
+    content: "Max: 1 GB";
+    display: block;
+    margin-left: 35px;
+    text-indent: 0;
+}
+li[name="gofile.io"]:after {
+    font-size: 80%;
+    font-weight: normal;
+    content: "Max: 100 MB *Slow";
+    display: block;
+    margin-left: 35px;
+    text-indent: 0;
+}
+li[name="europeup.com"]:after {
+    font-size: 80%;
+    font-weight: normal;
+    content: "Max: 1 GB";
+    display: block;
+    margin-left: 35px;
+    text-indent: 0;
+}
+li[name="bayfiles.com"]:after {
+    font-size: 80%;
+    font-weight: normal;
+    content: "Max: 400 MB";
+    display: block;
+    margin-left: 35px;
+    text-indent: 0;
+}
+li[name="upload4earn.org"]:after {
+    font-size: 80%;
+    font-weight: normal;
+    content: "Max: 1 GB";
+    display: block;
+    margin-left: 35px;
+    text-indent: 0;
+}
+li[name="desufiles.com"]:after {
+    font-size: 80%;
+    font-weight: normal;
+    content: "Max: 400 MB";
+    display: block;
+    margin-left: 35px;
+    text-indent: 0;
+}
+li[name="file.bz"]:after {
+    font-size: 80%;
+    font-weight: normal;
+    content: "Max: 400 MB";
+    display: block;
+    margin-left: 35px;
+    text-indent: 0;
+}
+li[name="linx.li"]:after {
+    font-size: 80%;
+    font-weight: normal;
+    content: "Max: 400 MB";
+    display: block;
+    margin-left: 35px;
+    text-indent: 0;
+}
+li[name="linx.li"]:after {
+    font-size: 80%;
+    font-weight: normal;
+    content: "Max: 400 MB";
+    display: block;
+    margin-left: 35px;
+    text-indent: 0;
+}
+li[name="megaupload.nz"]:after {
+    font-size: 80%;
+    font-weight: normal;
+    content: "Max: 400 MB";
+    display: block;
+    margin-left: 35px;
+    text-indent: 0;
+}
+li[name="myfile.is"]:after {
+    font-size: 80%;
+    font-weight: normal;
+    content: "Max: 400 MB";
+    display: block;
+    margin-left: 35px;
+    text-indent: 0;
+}
+li[name="pixeldra.in"]:after {
+    font-size: 80%;
+    font-weight: normal;
+    content: "Max: 400 MB";
+    display: block;
+    margin-left: 35px;
+    text-indent: 0;
+}
+li[name="put.re"]:after {
+    font-size: 80%;
+    font-weight: normal;
+    content: "Max: 100 MB";
+    display: block;
+    margin-left: 35px;
+    text-indent: 0;
+}
+li[name="upload.st"]:after {
+    font-size: 80%;
+    font-weight: normal;
+    content: "Max: 100 MB";
+    display: block;
+    margin-left: 35px;
+    text-indent: 0;
+}
+li[name="dl.free.fr"]:after {
+    font-size: 80%;
+    font-weight: normal;
+    content: "Max: 400 MB";
+    display: block;
+    margin-left: 35px;
+    text-indent: 0;
+}
+li[name="mega.nz"]:after {
+    font-size: 80%;
+    font-weight: normal;
+    content: "Max: 2 GB";
+    display: block;
+    margin-left: 35px;
+    text-indent: 0;
+}
+li[name="desiupload.in"]:after {
+    font-size: 80%;
+    font-weight: normal;
+    content: "Max: 10 MB";
+    display: block;
+    margin-left: 35px;
+    text-indent: 0;
+}
+li[name="indishare.me"]:after {
+    font-size: 80%;
+    font-weight: normal;
+    content: "Max: 1 GB";
+    display: block;
+    margin-left: 35px;
+    text-indent: 0;
+}
+li[name="uptobox.com"]:after {
+    font-size: 80%;
+    font-weight: normal;
+    content: "Max: 1 GB";
+    display: block;
+    margin-left: 35px;
+    text-indent: 0;
+}
+li[name="bdupload.info"]:after {
+    font-size: 80%;
+    font-weight: normal;
+    content: "Max: 1 GB";
+    display: block;
+    margin-left: 35px;
+    text-indent: 0;
+}
+li[name="streamango.com"]:after {
+    font-size: 80%;
+    font-weight: normal;
+    content: "Max: 1 GB";
+    display: block;
+    margin-left: 35px;
+    text-indent: 0;
+}
+li[name="drive.google.com"]:after {
+    font-size: 80%;
+    font-weight: normal;
+    content: "Max: 1 GB";
+    display: block;
+    margin-left: 35px;
+    text-indent: 0;
+}
+li[name="mexashare.com"]:after {
+    font-size: 80%;
+    font-weight: normal;
+    content: "Max: 1 GB";
+    display: block;
+    margin-left: 35px;
+    text-indent: 0;
+}
+li[name="2giga.link"]:after {
+    font-size: 80%;
+    font-weight: normal;
+    content: "Max: 1 GB";
+    display: block;
+    margin-left: 35px;
+    text-indent: 0;
+}
+li[name="douploads.com"]:after {
+    font-size: 80%;
+    font-weight: normal;
+    content: "Max: 500 MB";
+    display: block;
+    margin-left: 35px;
+    text-indent: 0;
+}
+li[name="file-upload.com"]:after {
+    font-size: 80%;
+    font-weight: normal;
+    content: "Max: 1 GB";
+    display: block;
+    margin-left: 35px;
+    text-indent: 0;
+}
+li[name="uppit.com"]:after {
+    font-size: 80%;
+    font-weight: normal;
+    content: "Max: 500 MB";
+    display: block;
+    margin-left: 35px;
+    text-indent: 0;
+}
+li[name="uploadev.com"]:after {
+    font-size: 80%;
+    font-weight: normal;
+    content: "Max: 1 GB";
+    display: block;
+    margin-left: 35px;
+    text-indent: 0;
+}
+li[name="filescdn.net"]:after {
+    font-size: 80%;
+    font-weight: normal;
+    content: "Max: 1 GB";
+    display: block;
+    margin-left: 35px;
+    text-indent: 0;
+}
+li[name="upbom.live"]:after {
+    font-size: 80%;
+    font-weight: normal;
+    content: "Max: 1000 MB";
+    display: block;
+    margin-left: 35px;
+    text-indent: 0;
+}
+li[name="ayefiles.com"]:after {
+    font-size: 80%;
+    font-weight: normal;
+    content: "Max: 1 GB";
+    display: block;
+    margin-left: 35px;
+    text-indent: 0;
+}
+li[name="cloudshare.to"]:after {
+    font-size: 80%;
+    font-weight: normal;
+    content: "Max: 1 GB";
+    display: block;
+    margin-left: 35px;
+    text-indent: 0;
+}
+li[name="uploadbuzz.org"]:after {
+    font-size: 80%;
+    font-weight: normal;
+    content: "Max: 1 GB";
+    display: block;
+    margin-left: 35px;
+    text-indent: 0;
+}
+li[name="filecandy.net"]:after {
+    font-size: 80%;
+    font-weight: normal;
+    content: "Max: 200 MB";
+    display: block;
+    margin-left: 35px;
+    text-indent: 0;
+}
+li[name="userupload.net"]:after {
+    font-size: 80%;
+    font-weight: normal;
+    content: "Max: 1 GB";
+    display: block;
+    margin-left: 35px;
+    text-indent: 0;
+}
+li[name="speed4up.com"]:after {
+    font-size: 80%;
+    font-weight: normal;
+    content: "Max: 1 GB";
+    display: block;
+    margin-left: 35px;
+    text-indent: 0;
+}
+li[name="dailyuploads.net"]:after {
+    font-size: 80%;
+    font-weight: normal;
+    content: "Max: 1 GB";
+    display: block;
+    margin-left: 35px;
+    text-indent: 0;
+}
+li[name="katfile.com"]:after {
+    font-size: 80%;
+    font-weight: normal;
+    content: "Max: 1 GB";
+    display: block;
+    margin-left: 35px;
+    text-indent: 0;
+}
+li[name="uploadbank.com"]:after {
+    font-size: 80%;
+    font-weight: normal;
+    content: "Max: 1 GB";
+    display: block;
+    margin-left: 35px;
+    text-indent: 0;
+}
+li[name="vup.to"]:after {
+    font-size: 80%;
+    font-weight: normal;
+    content: "Max: 1 GB";
+    display: block;
+    margin-left: 35px;
+    text-indent: 0;
+}
+li[name="9xupload.me"]:after {
+    font-size: 80%;
+    font-weight: normal;
+    content: "Max: 1 GB";
+    display: block;
+    margin-left: 35px;
+    text-indent: 0;
+}
+li[name="cloudvideo.tv"]:after {
+    font-size: 80%;
+    font-weight: normal;
+    content: "Max: 1 GB";
+    display: block;
+    margin-left: 35px;
+    text-indent: 0;
+}
+li[name="owndrives.com"]:after {
+    font-size: 80%;
+    font-weight: normal;
+    content: "Max: 1 GB";
+    display: block;
+    margin-left: 35px;
+    text-indent: 0;
+}
+li[name="streamcherry.com"]:after {
+    font-size: 80%;
+    font-weight: normal;
+    content: "Max: 1 GB";
+    display: block;
+    margin-left: 35px;
+    text-indent: 0;
+}
+li[name="thevideobee.to"]:after {
+    font-size: 80%;
+    font-weight: normal;
+    content: "Max: 1 GB";
+    display: block;
+    margin-left: 35px;
+    text-indent: 0;
+}
+li[name="vidoza.net"]:after {
+    font-size: 80%;
+    font-weight: normal;
+    content: "Max: 1 GB";
+    display: block;
+    margin-left: 35px;
+    text-indent: 0;
+}
+li[name="speedvid.net"]:after {
+    font-size: 80%;
+    font-weight: normal;
+    content: "Max: 1 GB";
+    display: block;
+    margin-left: 35px;
+    text-indent: 0;
+}
+li[name="vshare.eu"]:after {
+    font-size: 80%;
+    font-weight: normal;
+    content: "Max: 1 GB";
+    display: block;
+    margin-left: 35px;
+    text-indent: 0;
+}
+li[name="vidlox.me"]:after {
+    font-size: 80%;
+    font-weight: normal;
+    content: "Max: 1 GB";
+    display: block;
+    margin-left: 35px;
+    text-indent: 0;
+}
+li[name="howfile.com"]:after {
+    font-size: 80%;
+    font-weight: normal;
+    content: "Max: 1 GB";
+    display: block;
+    margin-left: 35px;
+    text-indent: 0;
+}
+li[name="nitroflare.com"]:after {
+    font-size: 80%;
+    font-weight: normal;
+    content: "Max: 1 GB";
+    display: block;
+    margin-left: 35px;
+    text-indent: 0;
+}
+li[name="oxy.cloud"]:after {
+    font-size: 80%;
+    font-weight: normal;
+    content: "Max: 1 GB";
+    display: block;
+    margin-left: 35px;
+    text-indent: 0;
+}
+li[name="mystream.to"]:after {
+    font-size: 80%;
+    font-weight: normal;
+    content: "Max: 1 GB";
+    display: block;
+    margin-left: 35px;
+    text-indent: 0;
+}
+.default-text {
+    width: 100%;
+}
+li[name="uploadgig.com"]:after {
+    font-size: 80%;
+    font-weight: normal;
+    content: "Max: 1 GB";
+    display: block;
+    margin-left: 35px;
+    text-indent: 0;
+}
+li[name="uploadrar.com"]:after {
+    font-size: 80%;
+    font-weight: normal;
+    content: "Max: 1 GB";
+    display: block;
+    margin-left: 35px;
+    text-indent: 0;
+}
